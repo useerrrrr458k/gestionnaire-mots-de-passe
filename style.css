@@ -1,0 +1,62 @@
+/* Style de base de la page (Section 5) */
+body {  
+    font-family: Arial, sans-serif;  
+    max-width: 800px;  
+    margin: auto;  
+    padding: 30px;  
+    background-color: #f9f9f9;
+    color: #333;
+}  
+
+/* Titres et textes */
+h1 {
+    color: #2c3e50;
+    font-size: 26px;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Étiquettes de formulaire */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Champs de saisie (Section 5) */
+input {  
+    display: block;  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 15px;  
+    box-sizing: border-box;  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}  
+
+/* Boutons */
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Zone d'affichage des comptes enregistrés */
+#listeComptes {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
